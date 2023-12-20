@@ -12,9 +12,9 @@ public class GenThree {
         int min = Integer.parseInt(args[0]);
         int max = Integer.parseInt(args[1]);
 
-        int rnd1 = rand.nextInt((max - min) + 1) + min;
-        int rnd2 = rand.nextInt((max - min) + 1) + min;
-        int rnd3 = rand.nextInt((max - min) + 1) + min;
+        int rnd1 = rand.nextInt((max - min)) + min;
+        int rnd2 = rand.nextInt((max - min)) + min;
+        int rnd3 = rand.nextInt((max - min)) + min;
 
         int minimum = Math.min(rnd1, rnd2);
         minimum = Math.min(minimum, rnd3);
